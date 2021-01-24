@@ -17,7 +17,7 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     if (msg.content.includes("Who is iceflame?")){
-        msg.reply(["Is kanjar say mulakat kayliyay neechay dekhiyay",
+        msg.reply(["GOAT ",
         "https://www.instagram.com/mriceflame1/"
       ])
     }
