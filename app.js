@@ -65,7 +65,7 @@ client.on('message', msg =>{
 client.on('message', msg =>{
     
         if(msg.content === '.fu'){
-            msg.channel.send("Loray Lg gaye")
+            msg.channel.send("*oray Lg gaye")
         }
         });
 
