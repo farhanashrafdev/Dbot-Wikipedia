@@ -68,11 +68,6 @@ client.on('message', msg =>{
             msg.channel.send("Loray Lg gaye")
         }
         });
-client.on('message', msg =>{
-   if(msg.author.bot){return}
-    if(msg.content === '.mamba'){
-       msg.channel.send("tauba tauba sara mo... \n Disconnected \n han mein kidr tha , ..od khrab krdia")
-    }
-    });
+
 
 client.login(process.env.BOT_TOKEN);
