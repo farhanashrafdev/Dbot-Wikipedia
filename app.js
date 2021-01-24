@@ -35,6 +35,7 @@ client.on('message', msg =>{
 });
 
 client.on('message', msg =>{
+  if(msg.author.bot){return}
   if (msg.content.includes("no")){
       msg.reply(["Then why are you out of kitchen"])
   }
@@ -51,33 +52,34 @@ client.on('message', msg =>{
 client.on('message', msg =>{
     
 if(msg.content === '.ice'){
+  if(msg.author.bot){return}
     msg.channel.send("Nice Choice Mohtarma")
 }
 });
 
 client.on('message', msg =>{
-    
+     if(msg.author.bot){return}
     if(msg.content === '.kuti'){
         msg.channel.send("RANA SAHAB CHECK KRO KHANZEEL NO", "Aj rana nhi Bachada" )
     }
     });
 
 client.on('message', msg =>{
-    
+     if(msg.author.bot){return}
         if(msg.content === '.fu'){
             msg.channel.send("*oray Lg gaye")
         }
         });
 
 client.on('message', msg =>{
-    
+     if(msg.author.bot){return}
         if(msg.content === 'who is mia malkova'){
             msg.channel.send("Puddings Crush")
         }
         });
 
 client.on('message', msg =>{
-    
+     if(msg.author.bot){return}
         if(msg.content === '.mamba'){
             msg.channel.send("tauba tauba sara mo... \n Disconnected \n han mein kidr tha , ..od khrab krdia")
         }
