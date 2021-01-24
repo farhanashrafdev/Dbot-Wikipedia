@@ -7,6 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg =>{
+   if(msg.author.bot){return}
   if (msg.content.includes("Who is Pudding?")){
       msg.reply(["Intehai koi Kanjr Admi hai",
       "You can look for him at ",
@@ -16,6 +17,7 @@ client.on('message', msg =>{
 });
 
 client.on('message', msg =>{
+   if(msg.author.bot){return}
     if (msg.content.includes("Who is iceflame?")){
         msg.reply(["BHT HE SHAREEF OR MASOOM BACHA HAI ","you can look him at",
         "https://www.instagram.com/mriceflame1/"
@@ -24,6 +26,7 @@ client.on('message', msg =>{
   });
 
 client.on('message', msg =>{
+   if(msg.author.bot){return}
   if (msg.content.includes("hello")){
       msg.reply(["Hello Baby Gurl.",
       "Are you Lost?",
