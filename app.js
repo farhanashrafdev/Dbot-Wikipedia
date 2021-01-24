@@ -58,7 +58,7 @@ if(msg.content === '.ice'){
 client.on('message', msg =>{
     
     if(msg.content === '.kuti'){
-        msg.channel.send("RANA SAHAB CHECK KRO", "Aj rana nhi Bachada" )
+        msg.channel.send("RANA SAHAB CHECK KRO KHANZEEL NO", "Aj rana nhi Bachada" )
     }
     });
 
