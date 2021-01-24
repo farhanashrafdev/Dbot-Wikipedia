@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('message', msg =>{
   if (msg.content.includes("Who is Pudding?")){
-      msg.reply(["It looks like you're looking for an amazing person",
+      msg.reply(["Is kanjar say mulakat kayliyay neechay dekhiyay",
       "You can look for him at ",
       "https://www.instagram.com/usman._.h/"
     ])
