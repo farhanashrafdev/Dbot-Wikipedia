@@ -24,23 +24,16 @@ client.on('message', msg =>{
   });
 
 
-client.on('message', msg =>{
-    if(msg.author.bot){return}
-    if(msg.content === '.com'){
-        msg.channel.send("I have the following commands : \n .ice \n .mamba \n .aws \n use any :D")
-
-    }
-    });
 
 client.on('message', msg =>{
-    if (msg.content.includes("iceflame?")){
+    if (msg.content.includes("commands?")){
        msg.reply(["I have the following commands : \n iceflame? \n pudding? \n .aws \n ice \n use any :D" 
       ])
     }
     });
     
 client.on('message', msg =>{
-    
+ 
 if(msg.content === 'ice'){
     msg.channel.send("Dheeraj rakhie Abu arhe hain")
 }
