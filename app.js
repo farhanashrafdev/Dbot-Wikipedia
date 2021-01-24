@@ -27,7 +27,6 @@ client.on('message', msg =>{
   if (msg.content.includes("hello")){
       msg.reply(["Hello Baby Gurl.",
       "Are you Lost?",
-      "https://www.instagram.com/usman._.h/"
     ])
   }
 });
