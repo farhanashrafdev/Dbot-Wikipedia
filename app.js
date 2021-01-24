@@ -54,7 +54,7 @@ client.on('message', msg =>{
         });
 client.on('message', msg =>{
     if(msg.content === '.mamba'){
-       msg.channel.send("tauba tauba sara mood \n Disconnected \n han mein kidr hai han, khrab krdia")
+       msg.channel.send("tauba tauba sara mo... \n Disconnected \n han mein kidr tha , ..od khrab krdia")
     }
     });
 
