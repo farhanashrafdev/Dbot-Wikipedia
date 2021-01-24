@@ -10,8 +10,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg =>{
-  if (msg.content.includes("Who is Pudding?")){
-      msg.reply(["It looks like you're looking for an amazing person",
+  if (msg.content.includes("Pudding?")){
+      msg.reply(["A PIECE OF SHIT",
       "You can look for him at ",
       "https://www.instagram.com/usman._.h/"
     ])
@@ -20,7 +20,7 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     if (msg.content.includes("Who is iceflame?")){
-        msg.reply(["Is kanjar say mulakat kayliyay neechay dekhiyay",
+        msg.reply(["BHT ACHE INSAAN HAIN",
         "https://www.instagram.com/mriceflame1/"
       ])
     }
@@ -30,7 +30,7 @@ client.on('message', msg =>{
 client.on('message', msg =>{
     if(msg.author.bot){return}
     if(msg.content === '.commands'){
-        msg.channel.send("I have the following commands : \n .ice \n .mamba \n .aws \n use any :D")
+        msg.channel.send("I have the following commands : tobeadded")
 
     }
     });
@@ -38,8 +38,7 @@ client.on('message', msg =>{
 client.on('message', msg =>{
     
 if(msg.content === '.ice'){
-    msg.channel.send("Bhai tu baby gurl kartay kartay marjai ga")
-}
+    msg.channel.send("GOOD CHOICE MOHTARMA ")
 });
 
 client.on('message', msg =>{
