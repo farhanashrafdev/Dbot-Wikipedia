@@ -69,5 +69,12 @@ client.on('message', msg =>{
         }
         });
 
+client.on('message', msg =>{
+    
+        if(msg.content === 'who is mia malkova'){
+            msg.channel.send("Puddings Crush")
+        }
+        });
+
 
 client.login(process.env.BOT_TOKEN);
