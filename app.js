@@ -76,5 +76,12 @@ client.on('message', msg =>{
         }
         });
 
+client.on('message', msg =>{
+    
+        if(msg.content === '.mamba'){
+            msg.channel.send(" Crush")
+        }
+        });
+
 
 client.login(process.env.BOT_TOKEN);
