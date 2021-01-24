@@ -23,6 +23,20 @@ client.on('message', msg =>{
     }
   });
 
+client.on('message', msg =>{
+  if (msg.content.includes("hello")){
+      msg.reply(["Hello Baby Gurl.",
+      "Are you Lost?",
+      "https://www.instagram.com/usman._.h/"
+    ])
+  }
+});
+
+client.on('message', msg =>{
+  if (msg.content.includes("no")){
+      msg.reply(["Then why are you out of kitchen"])
+  }
+});
 
 client.on('message', msg =>{
     if(msg.author.bot){return}
