@@ -26,6 +26,13 @@ client.on('message', msg =>{
   });
 
 client.on('message', msg =>{
+    
+if(msg.content === '.abu'){
+    msg.channel.send(" <@495663537759453184> ko aj bhi lgta hai k bache paryaan dekr jati hain ,chla sbka baap banne,KHASI KAHI KA")
+}
+})
+
+client.on('message', msg =>{
    if(msg.author.bot){return}
   if (msg.content.includes("hello")){
       msg.reply(["Hello Baby Gurl.",
