@@ -1,2 +1,2 @@
-# Dbot-I-Simp-for-ice
+# Dbot-Wikipedia
 a discord bot for fun
