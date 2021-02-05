@@ -35,8 +35,8 @@ if(msg.content === '.abu'){
 client.on('message', msg =>{
    if(msg.author.bot){return}
   if (msg.content.includes("hello")){
-      msg.reply(["Hello Baby Gurl.",
-      "Are you Lost?",
+      msg.reply(["Hello ."
+    
     ])
   }
 });
