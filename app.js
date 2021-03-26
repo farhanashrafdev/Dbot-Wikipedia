@@ -27,6 +27,13 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     
+if(msg.content === 'phcomment'){
+    msg.channel.send(" <@527429958470205451> ISKO dekhein ")
+}
+})
+
+client.on('message', msg =>{
+    
 if(msg.content === '.abu'){
     msg.channel.send(" <@495663537759453184> ko aj bhi lgta hai k bache paryaan dekr jati hain ,chla sbka baap banne,KHASI KAHI KA")
 }
