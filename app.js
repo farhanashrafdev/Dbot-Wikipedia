@@ -27,7 +27,7 @@ client.on('message', msg =>{
 
 client.on('message', msg =>{
     
-if(msg.content === 'phcomment'){
+if(msg.content === 'e!phcomment'){
     msg.channel.send(" <@527429958470205451> ISKO dekhein ")
 }
 })
